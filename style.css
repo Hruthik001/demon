@@ -67,6 +67,21 @@ li {
     margin-left: 170px;
 }
 
+.pa{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 2px;
+    color: orangered;
+}
+
+.pa::before{
+    content: "";
+    height: 2px;
+    background-color: orangered;
+    display: block;
+}
+
 .menu{
     width: 400px;
     float: right;
@@ -97,34 +112,78 @@ ul li a{
     transition: 0.4s ease-in-out;
 }
 ul li a:hover{
+
     color:orangered;
-} 
-
-.pa{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    column-gap: 0.6rem;
-    color: orangered;
 }
 
-.pa::before{
-    content: "";
-    height: 2px;
-    background-color: orangered;
-    display: block;
-}
-
-.photoa{
+.photo1{
     text-align: center;
-    margin: 1;
-    padding-bottom: 1;
-    justify-content: space-between;
+    display: flex;
+    align-items: top;
+    margin-left: 170px;
+}
+.photo1a{
+    margin: 10px;
 }
 
-.photob{
+.photo1b{
+    margin: 10px;
+}
+
+.photo1c{
+    margin: 10px;
+}
+
+.photo1d{
+    bottom: 2;
+}
+
+.photo2{
+    display: flex;
+    margin-left: 170px;
+}
+
+.photo2a{
+    margin: 10px;
+}
+
+.photo2b{
+    margin: 10px;
+}
+
+.photo2c{
+    margin:10px ;
+}
+
+.photo2d{
+    margin: 10px;
+}
+
+.photo3{
+    display: flex;
+    margin-left: 170px;
+}
+
+.photo3a{
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.photo3b{
+    margin: 10px;
+}
+
+.photo3c{
+    margin: 10px;
+}
+
+h3{
     text-align: center;
-    margin: 1;
-    padding-top: 1;
-    justify-content: space-around;
+    margin: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.down{
+    display: flex;
+    justify-content: center;
 }
